@@ -1,0 +1,12 @@
+.bts-tooltip {
+    max-width: none !important
+}
+
+.bts-tooltip table.issue td:first-child {
+    font-weight: bold;
+    text-align: right
+}
+
+.bts-tooltip table.issue td.nowrap {
+    white-space: nowrap
+}

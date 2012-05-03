@@ -1,0 +1,14 @@
+Author = "Jens Widell"
+Description = "Adds tooltips with BTS issue details to BTS links on Critic pages."
+Flavor = js/v8
+
+[Inject *]
+Description = "Inject script that fetches information and adds the tooltips."
+Script = inject.js
+Function = main
+Cached = yes
+
+[Page BTSTooltip/fetch]
+Description = "Operation that fetches information from the BTS."
+Script = fetch.js
+Function = main
